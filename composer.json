@@ -1,0 +1,20 @@
+{
+    "name": "taslimhossain/crud-by-taslim",
+    "description": "CRUD By Taslim is a plugin that makes it easy to achieve CRUD operations on custom tables",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "taslim",
+            "email": "tasliminfo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CRUDBT\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
